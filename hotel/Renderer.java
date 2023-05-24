@@ -98,7 +98,7 @@ public class Renderer {
 	}
 
 	public static void findRoom(Room[] roomList) {
-		int cnt = 0;
+		int cnt = 100;
 		for (int i = 0; i < roomList.length; i++) {
 			if (roomList[i].roomStatus.equals("�󰴽�")) {
 				cnt++;
